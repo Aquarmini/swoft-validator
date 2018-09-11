@@ -57,4 +57,28 @@ class Validator
             $this->validator = $values['validator'];
         }
     }
+
+    /**
+     * @return string
+     */
+    public function getFrom(): string
+    {
+        return $this->from;
+    }
+
+    /**
+     * @return string
+     */
+    public function getName(): string
+    {
+        return $this->name;
+    }
+
+    /**
+     * @return string
+     */
+    public function getValidator(): string
+    {
+        return $this->validator;
+    }
 }
