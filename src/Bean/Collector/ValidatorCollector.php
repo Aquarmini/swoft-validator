@@ -7,7 +7,7 @@
  * @contact  limingxin@swoft.org
  * @license  https://github.com/swoft-cloud/swoft/blob/master/LICENSE
  */
-namespace Swoftx\Validator\Collector;
+namespace Swoftx\Validator\Bean\Collector;
 
 use Swoft\Bean\CollectorInterface;
 

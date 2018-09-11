@@ -7,9 +7,15 @@
  * @contact  limingxin@swoft.org
  * @license  https://github.com/swoft-cloud/swoft/blob/master/LICENSE
  */
-namespace Swoftx\Validator;
 
-interface ValidatorInterface
+namespace SwoftTest\Testing\Validator;
+
+use Swoftx\Validator\ValidatorInterface;
+
+class TestValidator implements ValidatorInterface
 {
-    public function valid($data): bool;
+    public function valid($data): bool
+    {
+        return true;
+    }
 }

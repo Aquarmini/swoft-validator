@@ -7,10 +7,10 @@
  * @contact  limingxin@swoft.org
  * @license  https://github.com/swoft-cloud/swoft/blob/master/LICENSE
  */
-namespace Swoftx\Validator\Parser;
+namespace Swoftx\Validator\Bean\Parser;
 
 use Swoft\Bean\Parser\AbstractParser;
-use Swoftx\Validator\Collector\ValidatorCollector;
+use Swoftx\Validator\Bean\Collector\ValidatorCollector;
 
 class ValidatorParser extends AbstractParser
 {
